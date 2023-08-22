@@ -11,21 +11,21 @@ const NavBar = () => {
         <div className="flex items-center">
             <Image src="/assets/logo.jpeg" alt="Logo" width="200" height="0" className='-mb-6' />
         </div>
-        <div className="flex space-x-2">
-          <span className="flex space-x-2 items-center">
-            <PhoneIcon className="h-4 w-4 text-gray-600" />
-            Phone: 123-456-7890
-         </span>
-          <span className="flex items-center">
-            <ChatIcon className="h-4 w-4 text-gray-600" />
-              WhatsApp
-          </span>
-          <span className="flex items-center">
-            <MailIcon className="h-4 w-4 text-gray-600 mr-1" />
-            Email: example@example.com
-          </span>
-          <button className="bg-blue-500 text-white px-4 py-2 rounded">Quote</button>
-          <button className="bg-gray-500 text-white px-4 py-2 rounded">Language</button>
+        <div className="flex space-x-6">
+          <div className="flex gap-2 items-center">
+            <PhoneIcon className="h-4 w-4 text-vone" />
+            6248 0838
+         </div>
+         <div className="flex gap-2 items-center">
+            <ChatIcon className="h-4 w-4 text-vone" />
+              8484 9948
+          </div>
+          <div className="flex gap-2 items-center">
+            <MailIcon className="h-4 w-4 text-vone" />
+            info@visibleone.com
+          </div>
+          <button className="bg-green-500 text-white px-4 py-2 rounded">Quote</button>
+          <button className="text-vone px-4 py-2 border border-vone">SG EN</button>
         </div>
       </div>
       {/* Logo and Navigation*/}
@@ -53,7 +53,7 @@ const NavBar = () => {
             </Link>   
             </li>
             <div className="flex items-center z-50">
-                <SearchIcon className="h-6 w-6 mr-2 text-gray-600 cursor-pointer" />
+                <SearchIcon className="h-6 w-6 mr-2  cursor-pointer" />
             </div>
         </ul>
 
