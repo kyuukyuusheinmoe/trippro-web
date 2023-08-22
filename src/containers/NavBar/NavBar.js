@@ -56,9 +56,7 @@ const NavBar = () => {
                 <SearchIcon className="h-6 w-6 mr-2  cursor-pointer" />
             </div>
         </ul>
-
       </div>
-      
     </nav>
   );
 };
