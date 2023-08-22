@@ -5,7 +5,7 @@ import { ChevronDownIcon, SearchIcon ,  PhoneIcon, MailIcon, ChatIcon} from '@he
 
 const NavBar = () => {
   return (
-    <nav className="bg-white shadow-md fixed top-0 left-0 w-full">
+    <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
     {/* Information Row */}
       <div className="bg-gray-200 flex justify-between items-center lg:px-32">
         <div className="flex items-center">
