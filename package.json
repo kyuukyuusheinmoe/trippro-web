@@ -1,5 +1,5 @@
 {
-  "name": "visibleone-wed",
+  "name": "visibleone-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "autoprefixer": "10.4.15",
+    "heroicons": "^2.0.18",
     "next": "13.4.19",
     "postcss": "8.4.28",
     "react": "18.2.0",
