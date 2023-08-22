@@ -38,7 +38,7 @@ const NavBar = () => {
             </Link>      
             </li>
             <li>
-            <Link href="#" className="flex items-center">
+            <Link href="/about" className="flex items-center">
                     Services <ChevronDownIcon className='w-3  z-50 text-gray-500'/>
             </Link>    
             </li>
