@@ -1,15 +1,18 @@
 import NavBar from '@/containers/NavBar';
 import HomeContent from '@/components/HomeContent';
 import AboutContent from '@/components/AboutContent';
+import ChallengeContent from '@/components/ChallengeContent';
 
 
-export default function Home() {
+export default function Home({posts}) {
   return (
     <div className='w-full flex flex-col gap-4 '>
-      {/** Nav Bar */}
       <NavBar/>
       <HomeContent/>
       <AboutContent/>
+      <ChallengeContent/>
     </div>
   );
 };
+
+

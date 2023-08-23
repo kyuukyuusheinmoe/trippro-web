@@ -30,7 +30,7 @@ function HomeContent() {
             <p>Techonologies:</p>
             <p className='font-bold'> Wordpress</p>
             </div>
-            <Image src="/assets/wordpress-development-logo-banner.svg" height="50" width="50" alt="wordpress" />
+            <Image src="/assets/wordpress.svg" height="50" width="50" alt="wordpress" />
           </div>
 
           <div className="flex items-center gap-2 text-white text-lg">
