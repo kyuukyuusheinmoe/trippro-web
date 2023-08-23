@@ -6,7 +6,7 @@
     .animated-section {
         opacity: 0; /* Initially hide the sections */
         transform: translateY(20px); /* Initial position */
-        transition: opacity 0.5s ease, transform 0.5s ease;
+        transition: opacity 0.3s ease, transform 0.3s ease;
       }
       
       .animated-section.active {

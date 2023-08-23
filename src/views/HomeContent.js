@@ -11,7 +11,7 @@ function HomeContent() {
       style={{ backgroundImage: 'url("/assets/home-bg.png")' }}
     ></div>
 
-    <div className="relative w-full text-center p-16 bg-opacity-70 bg-black">
+    <div className="relative w-full text-center p-8 bg-opacity-70 bg-black">
       <Bars4Icon className='lg:hidden block w-10 h-10 font-bold text-white' />
       <div className='lg:w-4/5 mx-auto'>
         {/* Header Text */}
@@ -21,7 +21,7 @@ function HomeContent() {
         <p className="text-gray-300 text-md mb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
         
         {/* Three Sections */}
-        <div className="lg:w-3/5 mx-auto grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 mb-40 place-items-center">
+        <div className="lg:w-3/5 mx-auto grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 mb-40 place-items-center lg:gap-0 gap-y-4">
           <div className="flex items-center gap-2 text-lg text-white">
             <p className="font-bold">Built for:</p>
             <Image src="/assets/responsive.svg" height="50" width="50" alt="wordpress" />
