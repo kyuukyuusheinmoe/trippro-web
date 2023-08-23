@@ -10,8 +10,8 @@ function DesktopMobileView() {
     }
   return (
     <>
-        <div className='wrap w-5/6 mx-auto'>
-            <div className='grid grid-cols-10'>
+        <div className='w-5/6 mx-auto'>
+            <div className='lg:grid lg:grid-cols-10 flex flex-row'>
             {desktopView ?
                 <div className='row-span-full col-start-2 col-span-4 relative'>
                     <Image src="/assets/desktop-view.png" alt="desktop" layout='fill' className='desktop relative'/>

@@ -3,6 +3,7 @@ import HomeContent from '@/components/HomeContent';
 import AboutContent from '@/components/AboutContent';
 import ChallengeContent from '@/components/ChallengeContent';
 import DesktopMobileView from '@/components/DesktopMobileView';
+import Footer from '@/components/Footer';
 
 
 export default function Home({posts}) {
@@ -13,6 +14,7 @@ export default function Home({posts}) {
       <AboutContent/>
       <ChallengeContent/>
       <DesktopMobileView/>
+      <Footer/>
     </div>
   );
 };
