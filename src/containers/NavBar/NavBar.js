@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronDownIcon, SearchIcon ,  PhoneIcon, MailIcon, ChatIcon} from '@heroicons/react/solid';
+import { ChevronDownIcon, MagnifyingGlassIcon, PhoneIcon, ChatBubbleOvalLeftIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 
 const NavBar = () => {
   return (
@@ -17,11 +17,11 @@ const NavBar = () => {
             6248 0838
          </div>
          <div className="flex gap-2 items-center">
-            <ChatIcon className="h-4 w-4 text-vone" />
+            <ChatBubbleOvalLeftIcon className="h-4 w-4 text-vone" />
               8484 9948
           </div>
           <div className="flex gap-2 items-center">
-            <MailIcon className="h-4 w-4 text-vone" />
+            <EnvelopeIcon className="h-4 w-4 text-vone" />
             info@visibleone.com
           </div>
           <button className="bg-green-500 text-white px-4 py-2 rounded">Quote</button>
@@ -53,7 +53,7 @@ const NavBar = () => {
             </Link>   
             </li>
             <div className="flex items-center z-50">
-                <SearchIcon className="h-6 w-6 mr-2  cursor-pointer" />
+                <MagnifyingGlassIcon className="h-6 w-6 mr-2  cursor-pointer" />
             </div>
         </ul>
       </div>

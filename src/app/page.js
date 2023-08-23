@@ -8,7 +8,7 @@ import DesktopMobileView from '@/views/DesktopMobileView';
 
 const options = {
   root: null,
-  rootMargin: "300px",
+  rootMargin: "0px",
   threshold: 1,
 }
 export default function Home({posts}) {

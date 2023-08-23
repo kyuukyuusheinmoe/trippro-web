@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 import Image from 'next/image'
-import { ArrowRightIcon, ChevronRightIcon, ChevronLeftIcon } from '@heroicons/react/solid'
+import { ArrowRightIcon, ChevronRightIcon, ChevronLeftIcon } from '@heroicons/react/24/solid'
 
 function DesktopMobileView() {
     const [desktopView, setDesktopView] = useState(true)

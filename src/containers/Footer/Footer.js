@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { MailIcon } from '@heroicons/react/solid';
+import { EnvelopeIcon } from '@heroicons/react/24/solid';
 
 const Footer = () => {
   return (
@@ -56,7 +56,7 @@ const Footer = () => {
                         <h4 className="text-xl font-semibold mb-4">VISIBLE ONE SINGAPORE</h4>
                         <p className='text-lg font-semibold'>+656 248 0838</p>
                         <div className='flex gap-2 items-center'>
-                            <MailIcon className='w-4 h-4 '/> <p>info@visibleone.com</p>
+                            <EnvelopeIcon className='w-4 h-4 '/> <p>info@visibleone.com</p>
                         </div>
                         <p>24 Sin Ming Lane Midview City #07-93 Singapore 573970</p>
                         <p>Office Hour: Mon-Fri (9am-6pm)</p>
@@ -69,7 +69,7 @@ const Footer = () => {
                 <div className='border border-y-1 border-x-0 border-white py-4 flex lg:flex-row-reverse'>
                     <div>
                         <p className='text-sm'> Subscribe to our new, tips and guidlines</p>
-                        <div className='flex gap-3'>
+                        <div className='lg:flex md:flex gap-3 grid place-items-center'>
                             <input className='p-4 bg-transparent border border-white'/>
                             <button className='bg-vone text-white p-4'>Submit</button>
                         </div>
