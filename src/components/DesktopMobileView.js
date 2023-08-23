@@ -40,7 +40,7 @@ function DesktopMobileView() {
                             <ChevronRightIcon className="h-5 w-5 text-white" />
                         </div>
                     </div>
-                    <div className="lg:w-2/6 bg-gradient-to-r to-[#3AE7AB]  from-[#2DC4EA] p-2 rounded-full mt-8 grid grid-cols-2 place-items-center">
+                    <div className="lg:w-1/5 bg-gradient-to-r to-[#3AE7AB]  from-[#2DC4EA] p-2 rounded-full mt-8 grid grid-cols-2 place-items-center">
                         <label
                             className="inline-block pl-[0.15rem] hover:cursor-pointer px-2"
                             for="flexSwitchCheckDefault">{desktopView ? "Desktop": "Mobile"}</label>
