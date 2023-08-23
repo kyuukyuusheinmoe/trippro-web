@@ -11,7 +11,7 @@ function HomeContent() {
     ></div>
 
     <div className="relative w-full text-center p-16 bg-opacity-70 bg-black">
-      <div className='lg:mx-80'>
+      <div className='lg:w-4/5 mx-auto'>
         {/* Header Text */}
         <h1 className="text-white text-4xl font-bold mb-4">TRIPPRO - AN ECOMMERCE SOLUTION</h1>
         
@@ -19,7 +19,7 @@ function HomeContent() {
         <p className="text-gray-300 text-md mb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
         
         {/* Three Sections */}
-        <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4 place-items-center lg:mx-16 ">
+        <div className="lg:w-3/5  mx-auto grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4 place-items-center mb-40">
           <div className="px-10 border-r-2 border-white rounded-none flex items-center gap-2 text-lg text-white">
             <p className="font-bold">Built for:</p>
             <Image src="/assets/responsive.svg" height="50" width="50" alt="wordpress" />
@@ -43,11 +43,8 @@ function HomeContent() {
         </div>
 
         {/** Desktop UI */}
-        <div className='p-20'>
-          <div className='flex justify-center relative'>
-              <Image src="/assets/Laptop.png" alt="Logo" width="600" height="400" className='-mb-10 absolute' />
-              <Image src="/assets/desktop-view.png" alt="Logo" width="465" height="250" className='top-4 absolute' />
-          </div>
+        <div className='flex justify-center relative'>
+          <Image src="/assets/laptop-img.png" alt="Logo" width="600" height="400" className='absolute -top-20' />
         </div>
       </div>
     </div>
