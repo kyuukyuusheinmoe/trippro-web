@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .animated-section {
+        opacity: 0; /* Initially hide the sections */
+        transform: translateY(20px); /* Initial position */
+        transition: opacity 0.5s ease, transform 0.5s ease;
+      }
+      
+      .animated-section.active {
+        opacity: 1; /* Show the sections */
+        transform: translateY(0);
+      }
+}

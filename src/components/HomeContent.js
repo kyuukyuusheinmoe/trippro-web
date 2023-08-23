@@ -44,7 +44,7 @@ function HomeContent() {
         </div>
 
         {/** Desktop UI */}
-        <div className='flex justify-center relative'>
+        <div className='flex justify-center relative animated-section'>
           <Image src="/assets/laptop-img.png" alt="Logo" width="600" height="400" className='absolute -top-20' />
         </div>
       </div>

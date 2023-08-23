@@ -5,7 +5,7 @@ import ChallengeList from './ChallengeList';
 function ChallengeContent() {
     
   return (
-    <div className="container mx-auto py-10">
+    <div className="animated-section container mx-auto py-10">
         <div className="flex justify-center mb-4">
             <span className="text-2xl font-semibold text-vone lg:ml-[15rem]"><span className='text-black'>OUR </span> CHALLENGES </span>
         </div>
