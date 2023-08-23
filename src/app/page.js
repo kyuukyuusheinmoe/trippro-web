@@ -1,11 +1,10 @@
 "use client"
 import { useEffect } from 'react';
-import NavBar from '@/containers/NavBar';
+import { Footer, NavBar } from '@/containers';
 import HomeContent from '@/components/HomeContent';
 import AboutContent from '@/components/AboutContent';
 import ChallengeContent from '@/components/ChallengeContent';
 import DesktopMobileView from '@/components/DesktopMobileView';
-import Footer from '@/components/Footer';
 
 const options = {
   root: null,

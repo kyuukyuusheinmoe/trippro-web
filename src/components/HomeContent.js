@@ -14,7 +14,7 @@ function HomeContent() {
     <div className="relative w-full text-center p-16 bg-opacity-70 bg-black">
       <div className='lg:w-4/5 mx-auto'>
         {/* Header Text */}
-        <h1 className="text-white text-4xl font-bold mb-4">TRIPPRO - AN ECOMMERCE SOLUTION</h1>
+        <h1 className="text-white text-4xl font-light mb-4">TRIPPRO - AN ECOMMERCE SOLUTION</h1>
         
         {/* Sub Header Text */}
         <p className="text-gray-300 text-md mb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>

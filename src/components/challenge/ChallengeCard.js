@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 
 const ChallengeCard = ({ challenge }) => {
-    console.log ('xxx challenge ', challenge)
     const {serial, description} = challenge;
     const formattedSerial = serial < 10 ? `0${serial}` : serial;
     return (

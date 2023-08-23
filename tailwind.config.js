@@ -8,6 +8,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {'body': ['"Open Sans"']},
       colors: {
         'vone': {
           DEFAULT: "#2DC4EA"
