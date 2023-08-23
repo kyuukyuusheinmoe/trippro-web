@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
+import { Bars4Icon } from '@heroicons/react/24/solid'
 
 function HomeContent() {
   return (
@@ -12,6 +12,7 @@ function HomeContent() {
     ></div>
 
     <div className="relative w-full text-center p-16 bg-opacity-70 bg-black">
+      <Bars4Icon className='lg:hidden block w-10 h-10 font-bold text-white' />
       <div className='lg:w-4/5 mx-auto'>
         {/* Header Text */}
         <h1 className="text-white text-4xl font-light mb-4">TRIPPRO - AN ECOMMERCE SOLUTION</h1>
@@ -20,18 +21,20 @@ function HomeContent() {
         <p className="text-gray-300 text-md mb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
         
         {/* Three Sections */}
-        <div className="lg:w-3/5  mx-auto grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4 place-items-center mb-40">
-          <div className="px-10 border-r-2 border-white rounded-none flex items-center gap-2 text-lg text-white">
+        <div className="lg:w-3/5 mx-auto grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 mb-40 place-items-center">
+          <div className="flex items-center gap-2 text-lg text-white">
             <p className="font-bold">Built for:</p>
             <Image src="/assets/responsive.svg" height="50" width="50" alt="wordpress" />
+            <div className='bg-white h-12 w-[2px] mx-8 hidden lg:block'> </div>
           </div>
           
-          <div className="px-10 border-r-2 border-white rounded-none flex items-center gap-2 text-white text-lg">
-            <div>
-            <p>Techonologies:</p>
-            <p className='font-bold'> Wordpress</p>
+          <div className="flex items-center text-white text-lg">
+            <div className="">
+              <p>Techonologies:</p>
+              <p className='font-bold'> Wordpress</p>
             </div>
-            <Image src="/assets/wordpress.svg" height="50" width="50" alt="wordpress" />
+              <Image src="/assets/wordpress.svg" height="50" width="50" alt="wordpress" />
+            <div className='bg-white h-12 w-[2px] mx-8 hidden lg:block'> </div>
           </div>
 
           <div className="flex items-center gap-2 text-white text-lg">
