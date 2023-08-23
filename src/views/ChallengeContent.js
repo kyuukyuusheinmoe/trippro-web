@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import ChallengeList from './challenge/ChallengeList';
+import ChallengeList from '@/components/challenge/ChallengeList';
 
 function ChallengeContent() {
     
