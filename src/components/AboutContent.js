@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function AboutContent() {
   return (
-    <div className="relative mx-auto py-10 lg:w-2/3 mt-[23rem]">
+    <div className="relative mx-auto py-10 lg:w-2/3 lg:mt-[23rem]">
     <div className="grid lg:grid-cols-2 grid-cols-1 ">
       {/* Explanation Text and Button Section */}
       <div className="col-span-1 px-4 justify-self-center place-content-center">

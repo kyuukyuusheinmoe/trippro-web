@@ -76,8 +76,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full flex justify-center text-white mt-8">
-                <ul className="list-disc pl-6 flex gap-8">
+            <div className="w-full flex justify-center text-white">
+                <ul className="list-disc pl-6 lg:flex lg:gap-8 grid">
                     <li><a href="#">Shopping T&C</a></li>
                     <li><a href="#">Terms and Conditions</a></li>
                     <li><a href="#">Privacy Policy</a></li>

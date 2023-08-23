@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 function HomeContent() {
   return (
-    <div className="relative bg-black top-[5.5rem]">
+    <div className="relative bg-black lg:top-[5.5rem]">
     {/* Background Image */}
     <div
       className="absolute inset-0 bg-cover bg-center"
